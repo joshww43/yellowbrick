@@ -7,7 +7,7 @@
 # Copyright (C) 2016 District Data Labs
 # For license information, see LICENSE.txt
 #
-# ID: rcmod.py [] benjamin@bengfort.com $
+# ID: rcmod.py [c6aff34] benjamin@bengfort.com $
 
 """
 Modifies the matplotlib rcParams in order to make yellowbrick more appealing.
@@ -323,7 +323,7 @@ def _plotting_context(context=None, font_scale=1, rc=None):
         }
 
         # Scale all the parameters by the same factor depending on the context
-        scaling = dict(paper=.8, notebook=1, talk=1.3, poster=1.6)['talk']
+        scaling = dict(paper=.8, notebook=1, talk=1.3, poster=1.6)['notebook']
         context_dict = {k: v * scaling for k, v in base_context.items()}
 
         # Now independently scale the fonts

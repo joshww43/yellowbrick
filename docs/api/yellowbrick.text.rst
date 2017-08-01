@@ -11,3 +11,17 @@ yellowbrick.text.base module
     :members:
     :undoc-members:
     :show-inheritance:
+
+yellowbrick.text.tsne module
+----------------------------
+.. automodule:: yellowbrick.text.tsne
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+yellowbrick.text.freqdist module
+--------------------------------
+.. automodule:: yellowbrick.text.freqdist
+    :members:
+    :undoc-members:
+    :show-inheritance:

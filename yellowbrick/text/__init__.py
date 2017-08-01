@@ -7,7 +7,7 @@
 # Copyright (C) 2017 District Data Labs
 # For license information, see LICENSE.txt
 #
-# ID: __init__.py [] rbilbro@districtdatalabs.com $
+# ID: __init__.py [75d9b20] rebecca.bilbro@bytecubed.com $
 
 """
 Visualizers for text feature analysis and diagnostics.
@@ -17,4 +17,6 @@ Visualizers for text feature analysis and diagnostics.
 ## Imports
 ##########################################################################
 
-# TODO: add import * statements for textviz modules
+from .tsne import TSNEVisualizer, tsne
+from .freqdist import FreqDistVisualizer, freqdist
+from .postag import PosTagVisualizer
